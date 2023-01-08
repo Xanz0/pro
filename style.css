@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    gap: 30px;
+}
+h1{
+    font-size: 60px;
+}
+.input{
+    border-radius: 15px;
+    border: 1px solid green;
+    text-align: center;
+}
+.btn{
+    border-radius: 15px;
+    border: 1px solid green;
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(155, 154, 154);
+    color: aliceblue;
+}
+.btn:active{
+    background-color: green;
+    color: white;
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+.input:active{
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+.input:hover{
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
